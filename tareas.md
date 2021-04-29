@@ -3,7 +3,7 @@ layout: page
 title: Tareas
 permalink: /tareas/
 ---
-
+ 
 {%- for tarea in site.tareas %}
   {%- if tarea.visible %}
 {{ tarea.name | slice: 0, 10  }}.  <a href="{{ site.baseurl }}/{{ tarea.url }}">Ver {{ tarea.name }}</a>
